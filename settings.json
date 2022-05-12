@@ -1,0 +1,62 @@
+{
+    // Vim Specific setting
+    // Vim Specific setting: from https://github.com/VSCodeVim/Vim#vscodevim-settings
+    "vim.easymotion": true, // Vim Easy motion: \\
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+
+    // Vim specific setting: Wasim
+    //"vim.smartRelativeLine": true,
+    "vim.ignorecase": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.editor.untitled.hint": "hidden",
+    "python.defaultInterpreterPath": "/Users/wasim/opt/miniconda3/envs/ml_dl_39/bin/python",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.inheritEnv": false,
+    "editor.lineNumbers": "on",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "leetcode.workspaceFolder": "/Volumes/Google Drive/Other computers/Devices/Space/Utah MS/Leetcode",
+    "leetcode.filePath": {
+      "default": {
+          // relative folder path
+          "folder": "${company}/${difficulty}/${tag}",
+          // file name
+          "filename": "${id}.${snake_case_name}.${ext}"
+      }
+    },
+    "leetcode.defaultLanguage": "python3",
+    "leetcode.showDescription": "Both",
+    "leetcode.hint.commentDescription": false,
+    "editor.wordWrap": "on",
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "git.ignoreLegacyWarning": true,
+    "window.zoomLevel": 1,
+}
