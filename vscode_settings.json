@@ -42,7 +42,6 @@
     "terminal.integrated.inheritEnv": false,
     "editor.lineNumbers": "on",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    //"leetcode.workspaceFolder": "/Users/wasim/.leetcode",
     "leetcode.workspaceFolder": "/Volumes/Google Drive/Other computers/Devices/Space/Utah MS/Leetcode",
     "leetcode.filePath": {
       "default": {
@@ -58,4 +57,6 @@
     "editor.wordWrap": "on",
     "leetcode.hint.commandShortcut": false,
     "leetcode.hint.configWebviewMarkdown": false,
+    "git.ignoreLegacyWarning": true,
+    "window.zoomLevel": 1,
 }
